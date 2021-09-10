@@ -12,11 +12,21 @@ opencv-python==4.5.3.56
 
 tensorflow==2.6.0
 
-or just execute `pip install -r requirement.txt`
-
 ```
 
+or just execute `pip install -r requirement.txt`
+in your command shell.
+
 ---
+
+## Dataset
+
+The FER-2013 dataset was created by gathering the results of a Google image search of each emotion and synonyms​​ of ​​the ​emotions. 
+
+Download:- [fer2013.csv](https://www.kaggle.com/deadskull7/fer2013)
+
+---
+
 ## Exection 
 
 In the `emotion.py` file -
