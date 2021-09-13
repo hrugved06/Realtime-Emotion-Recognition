@@ -41,6 +41,26 @@ In the `emotion.py` file -
 
 ---
 
+## Algorithm
+
+- First, the **haar cascade** method is used to detect faces in each frame of the webcam feed.
+
+- The region of image containing the face is resized to **48x48** and is passed as input to the CNN.
+
+- The network outputs a list of **softmax scores** for the seven classes of emotions.
+
+- The emotion which has the **maximum score** is displayed on the screen.
+
+---
+
+## Results
+
+The result of the algorithm performance is as follows:
+
+![Accuracy plot](https://raw.githubusercontent.com/hrugved06/Realtime-Emotion-Recognition/main/images/accuracy_plot.png)
+
+---
+
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">My Profile :
 <div align="center">
 <a href="https://github.com/hrugved06"><img src="https://avatars.githubusercontent.com/u/59966943?s=400&u=445f4a7598547c0ecdeb22a265dd1a3dad9e297d&v=4" width="100px;" alt=""/><br /><sub><b> Hrugved Kolhe</b></sub></a>
