@@ -100,4 +100,4 @@ for i in tqdm(range(len(df))):
             img.save('data/test/neutral/im'+str(neutral_test)+'.png')
             neutral_test += 1
 
-print("Completed")
+print("Successfully Exexuted and ready to predict")
