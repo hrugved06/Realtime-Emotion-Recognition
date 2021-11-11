@@ -10,7 +10,7 @@ numpy==1.21.2
 
 opencv-python==4.5.3.56
 
-tensorflow==2.6.0
+tensorflow>=2.6.1
 
 ```
 
